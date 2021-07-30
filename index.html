@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet"> 
+
+    <!-- css links -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>CarStore</title>
+</head>
+<body>
+    <header class="header sticky-top">
+        <div class="header-top">
+            <div class="container">
+              <div class="row">
+                              
+               <div class="col-lg-3 col-md-3 d-flex justify-content-md-start justify-content-center">
+                <a href="index.html">
+                  <img class="img-fluid logo" src="./imgs/c-logo.png" alt="">
+                </a>
+               </div>
+               <div class="col-lg-9 col-md-9 d-flex justify-content-end">
+                <div class="h-top-right text-center d-flex d-md-block d-none">
+                  <ul class="list-inline d-flex align-items-center mb-0 ">
+                    <li class="list-inline-item">
+                      <a href="tel:+8810724392212">+8810724392212</a>
+                      <p> Mon-Fri: 8:30am-7:30pm; Sat-Sun: 9:30am-4:30pm </p>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#"><i class="fas fa-star"></i></a>
+                      <p>Wishlist</p>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#"><i class="fas fa-car"></i></a>
+                      <p>Compare</p>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#"><i class="fas fa-cart-arrow-down"></i></a>
+                      <p>My Card</p>
+                    </li>
+                  </ul>
+                </div>
+               </div>
+              </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container p-0">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myName1" aria-controls="myName1" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse my-menu" id="myName1">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Service</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Review</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Location</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                          </li>
+                        
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-lg-12">
+                  <div id="cIndicator1" class="carousel slide" data-bs-ride="carousel">
+                    
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="4000">
+                        <img src="./imgs/banner1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./imgs/banner2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./imgs/banner3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#cIndicator1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#cIndicator1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- headlight code start -->
+    <section class="headlight">
+      <div class="container-fluid p-0">
+        <div class="row g-0">
+
+          <div class="col-lg-6 col-md-6">
+            <div class="head-item">
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <div class="head-text">
+                    <h2>Headlights</h2>
+                    <p>Headlights Projector, LED, Factory</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="h-img">
+                    <img class="img-fluid" src="./imgs/h-img1.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="head-item bg-item2">
+              <div class="row">
+                <div class="col-lg-6  col-md-6">
+                  <div class="head-text">
+                    <h2>Headlights</h2>
+                    <p>Headlights Projector, LED, Factory</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="h-img">
+                    <img class="img-fluid" src="./imgs/h-img2.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="head-item bg-item2">
+              <div class="row">
+                <div class="col-lg-6  col-md-6">
+                  <div class="head-text">
+                    <h2>Headlights</h2>
+                    <p>Headlights Projector, LED, Factory</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="h-img">
+                    <img class="img-fluid" src="./imgs/h-img3.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="head-item">
+              <div class="row">
+                <div class="col-lg-6  col-md-6">
+                  <div class="head-text">
+                    <h2>Headlights</h2>
+                    <p>Headlights Projector, LED, Factory</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="h-img">
+                    <img class="img-fluid" src="./imgs/h-img4.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- headlight code end -->
+
+    <!-- feature product start -->
+    <section class="features">
+      <div class="container">
+        <div class="row">
+         <div class="col-lg">
+          <div class="f-title text-center ">
+            <h1>Featured Products</h1>
+          </div>
+         </div>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="feature-item text-center">
+              <img class="img-fluid" src="./imgs/f-img1.png" alt="">
+              <h3>Headlights</h3>
+              <h4>$300.00</h4>
+              <div class="f-rating">
+                <ul class="list-unstyled">
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fas fa-star-half-alt    "></i></li>
+                  
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="feature-item text-center">
+              <img class="img-fluid" src="./imgs/f-img2.png" alt="">
+              <h3>Headlights</h3>
+              <h4>$300.00</h4>
+              <div class="f-rating">
+                <ul class="list-unstyled">
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fas fa-star-half-alt    "></i></li>
+                  
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="feature-item text-center">
+              <img class="img-fluid" src="./imgs/f-img3.png" alt="">
+              <h3>Headlights</h3>
+              <h4>$300.00</h4>
+              <div class="f-rating">
+                <ul class="list-unstyled">
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fas fa-star-half-alt    "></i></li>
+                  
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+          <div class="feature-item text-center">
+            <img class="img-fluid" src="./imgs/f-img4.png" alt="">
+            <h3>Headlights</h3>
+            <h4>$300.00</h4>
+            <div class="f-rating">
+              <ul class="list-unstyled">
+                <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                <li class="list-inline-item"><i class="fas fa-star-half-alt    "></i></li>
+                
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- feature product end -->
+
+    <!-- car banner start -->
+    <section class="car">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="car-banner-text car-border text-center">
+              <h2>25% of</h2>
+              <h3>On order over $999</h3>
+              <p>This Offer is valid on all our items</p>
+              <a class="btn custom-btn" href="#">Buy Now</a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="car-banner-text text-center">
+              <h2>25% of</h2>
+              <h3>On order over $999</h3>
+              <p>This Offer is valid on all our items</p>
+              <a class="btn custom-btn" href="#">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- car banner end -->
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+              <div class="footer-widget">
+                <h1>Quick Links</h1>
+                <div class="f-menu">
+                  <ul class="list-unstyled">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Customar Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Search Terms</a></li>
+                    <li><a href="#">Advanced Search</a></li>
+                    <li><a href="#">Orders & Returnes</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+              <div class="footer-widget">
+                <h1>Quick Links</h1>
+                <div class="f-menu">
+                  <ul class="list-unstyled">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Customar Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Search Terms</a></li>
+                    <li><a href="#">Advanced Search</a></li>
+                    <li><a href="#">Orders & Returnes</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+              <div class="footer-widget">
+                <h1>Quick Links</h1>
+                <div class="f-menu">
+                  <ul class="list-unstyled">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Customar Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Search Terms</a></li>
+                    <li><a href="#">Advanced Search</a></li>
+                    <li><a href="#">Orders & Returnes</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+              <div class="footer-widget">
+                <h1>Newslatter</h1>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illo recusandae corrupti accusamus! Placeat, repellendus.</p>
+
+                <div class="newslatter-form">
+                  <form action="#">
+                    <input type="email" class="form-control" placeholder="Your email address">
+                    <button type="submit" class="btn custom-btn">Submit</button>
+                  </form>
+                  <div class="n-social">
+                    <ul class="list-inline">
+                      <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                      <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li class="list-inline-item"><a href="#"><i class="fab fa-google"></i></a></li>
+                      <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                      <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+         
+          </div>
+        </div>
+      </div>
+      <div class="footer-middle">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="footer-widget">
+                <h1>Information</h1>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 d-lg-block d-none">
+              <div class="footer-widget">
+                <h1>Information</h1>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="footer-widget">
+                <h1>Contact</h1>
+                <div class="contact-info">
+                  <ul class="list-unstyled">
+                    <li><span><i class="fas fa-location-arrow"></i></span> 123, Main Road, Your City, NY 1234</li>
+                    <li><span><i class="fas fa-phone"></i></span> +123 456 7890</li>
+                    <li><span><i class="fas fa-ticket-alt "></i></span> 7 Days a week from 10:00 am to 6:00 pm</li>
+                    <li><span><i class="fas fa-book"></i></span> info@psdfreebies.com</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 d-flex justify-content-md-start justify-content-center">
+              <p class="mb-0">&copy;CarStore © 2017 . All Rights Reserved. </p>
+            </div>
+            <div class="col-lg-6 col-md-6 d-flex justify-content-md-end justify-content-center">
+              <div class="f-img text-end">
+                <img src="./imgs/footer.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/custom.js"></script>
+</body>
+</html>
